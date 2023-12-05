@@ -9,6 +9,7 @@ import java.awt.event.*;
 import model.Player;
 import model.RowGameModel;
 import controller.RowGameController;
+import logger.Logger;
 
 public class RowGameGUI implements RowGameView {
     public JFrame gui = new JFrame("Tic Tac Toe");
@@ -52,7 +53,8 @@ public class RowGameGUI implements RowGameView {
     }
 
     public void update(RowGameModel gameModel) {
-	boardGameView.update(gameModel);
-	statusView.update(gameModel);
+        Logger.log("updates");
+        boardGameView.update(gameModel);
+        statusView.update(gameModel);
     }
 }

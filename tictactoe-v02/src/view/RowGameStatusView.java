@@ -19,6 +19,7 @@ public class RowGameStatusView implements RowGameView {
      * Creates a new RowGameStatusView.
      */
     public RowGameStatusView(JPanel messages) {
+        Logger.log("updates");
         messages.add(playerturn);
         playerturn.setText(Player.PLAYER_1.getLabel() + " to play 'X'");
     }
