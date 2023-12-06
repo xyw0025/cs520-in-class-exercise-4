@@ -11,7 +11,7 @@ public enum Player {
 
 
     private Player(int id) {
-        Logger.log("manipualates");	
+        Logger.log("manipulates");
 	    this.id = id;
     }
 

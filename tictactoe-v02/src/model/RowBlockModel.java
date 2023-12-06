@@ -34,7 +34,6 @@ public class RowBlockModel
 	if (game == null) {
 	    throw new IllegalArgumentException("The game must be non-null.");
 	}
-	Logger.log("manipualates");	
 	this.game = game;
 	this.reset();
     }
@@ -53,7 +52,7 @@ public class RowBlockModel
 	if (value == null) {
 	    throw new IllegalArgumentException("The value must be non-null.");
 	}
-    Logger.log("manipualates");	
+    Logger.log("manipulates");
 	this.contents = value;
     }
 
@@ -67,7 +66,7 @@ public class RowBlockModel
     }
 
     public void setIsLegalMove(boolean isLegalMove) {
-        Logger.log("manipualates");	    
+        Logger.log("manipulates");
 	this.isLegalMove = isLegalMove;
     }
 
@@ -79,7 +78,6 @@ public class RowBlockModel
      * Resets this block before starting a new game.
      */
     public void reset() {
-    Logger.log("manipualates");	
 	this.contents = "";
 	this.isLegalMove = false;
     }

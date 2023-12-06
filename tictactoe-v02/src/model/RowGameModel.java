@@ -19,10 +19,9 @@ public class RowGameModel
 
     public RowGameModel() {
 	super();
-
+    // Logger.log("manipulates");
 	for (int row = 0; row < 3; row++) {
-	    for (int col = 0; col < 3; col++) {
-            Logger.log("manipualates");	
+	    for (int col = 0; col < 3; col++) {	
 		blocksData[row][col] = new RowBlockModel(this);
 	    } // end for col
 	} // end for row
@@ -36,8 +35,8 @@ public class RowGameModel
 	if (player == null) {
 	    throw new IllegalArgumentException("The player must be non-null.");
 	}
-    Logger.log("manipualates");	
-	this.player = player;
+        Logger.log("manipulates");
+        this.player = player;
     }
 
     public int getMovesLeft() {
@@ -45,7 +44,7 @@ public class RowGameModel
     }
 
     public void setMovesLeft(int movesLeft) {
-        Logger.log("manipualates");	
+        Logger.log("manipulates");
 	this.movesLeft = movesLeft;
     }
 
@@ -54,7 +53,7 @@ public class RowGameModel
     }
 
     public void setFinalResult(String finalResult) {
-        Logger.log("manipualates");	
+        Logger.log("manipulates");
 	this.finalResult = finalResult;
     }
 }
