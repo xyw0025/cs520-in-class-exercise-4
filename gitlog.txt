@@ -1,0 +1,49 @@
+8ae79b5 Chore: remove .DS_Store
+4275942 Doc: rename pdf file
+5305cfc Merge branch 'ansh-ie4-app1' of https://github.com/xyw0025/cs520-in-class-exercise-4 into release
+42d940d Doc: report pdf file
+f258197 Fix: delete lib files
+27cf65b Fix: delete lib files
+5f6f3bf Feat: Added traces
+e7234d9 Merge branch 'ansh-ie4-app1' into release
+429bbc0 Fix: tracing
+52310fc Feat: Tested the traces
+c7901bc Feat: traces, inferred model and graph
+b886878 Init
+53146a5 Feat: Added manipulates and updates
+be258fc Branched the v2.0.0 to add the model inference tool scripts. Also added the logger.Logger class and used it in the app.
+4b90fb0 Branched the hw1 branch to add the scripts to run the model inference tool. Also added the Logger class and used it in the code.
+5d62f00 Added an internal comment about applying the composite design pattern
+88dc4f8 Finished implementing the composite design pattern for the RowGameGUI. Modified the remaining code in response. All test cases pass.
+845c2bb Starting to implemented the composite design pattern for the RowGameGUI class.
+aed6d1c Modified the TestExample test suite to add the testIllegalMove test case. All test cases pass.
+e4e05fb Modified the TestExample test suite to add the checkInitialConfiguration helper method. Also modified this test suite to have the testNewGame test case use the helper method and added the testLegalMove test case.
+c3f60d5 Modified the RowGameModel class to encapsulate the player and movesLeft fields. Added the Player enum class to improve the type safety of the player field. Updated the remaining code in response.
+4ee0de6 Added the BlockIndex class. Modified the RowGameController class to add the getBlockIndex method and use it in the move method. Also bug fixed the move method to use the getIsLegalMove/setIsLegalMove method to prevent illegal moves.
+caab1f9 Bug fix for the resetGame method to update the final result appropriately
+82871d7 Updated the README file to be consistent with the source code.
+5140150 Created the RowGameApp class and moved the main method to it.
+2615c54 Decomposed the TicTacToeGame class into the RowGameController and RowGameGUI classes. Updated the test suite. All tests pass.
+6691377 Extended the RowGameModel class to add the setter and getter methods for the finalResult field. Modified the TicTacToeGame class as needed. All test cases pass.
+a9cd3aa Renamed the TicTacToeBlock class as the RowGameBlock class. Updated the remaining code as needed. All test cases pass.
+9b13544 Create the model package and moved the relevant classes to it. Update the remaining code as needed. All test cases pass.
+170078e Starting to apply the MVC architecture pattern. Created the RowGameModel class and moved the relevant fields to it. Updated the remaining code as needed. All test cases pass.
+9f47531 Modified the build.xml file to be able to generated the javadoc
+743561f For the MVC architecture pattern, added the TicTacToeBlock class. Modified the TicTacToeGame class to use the block. Also modified the test cases to cover the block. Updated the README file to mention the block.
+439fa0f Renamed the class from TicTacToe to TicTacToeGame to improve understandability.
+0e618b3 removed deprecated functionality
+a6130ad Include all classes under the test directory when running tests.
+3bf6a08 Upgraded Major.
+b77dd91 Tweaked the README.
+27e3cf0 Tweaked the README.
+540a2e6 Removed the instrumented classes, which are regenerated during the coverage analysis.
+3c02f8f Removed the redundant compilation from the coverage script.
+58f0e67 Treat any source file in the test directory as test class.
+d9601e2 Added a meaningful example test.
+3cd4116 Added an explicit interpreter to show_mutant script.
+50672a2 Fixed a typo and the formatting in the README.
+4ea3154 Added the triangle example.
+e529185 Updated the README.
+7ce82cc Added a dependency.
+34e2204 Added the TicTacToe implementation.
+6f4d4ad Initial commit
